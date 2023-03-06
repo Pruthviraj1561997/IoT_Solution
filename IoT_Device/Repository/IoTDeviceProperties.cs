@@ -19,7 +19,7 @@ namespace IoT_Device.Repository
 
         public static DeviceClient client = null;
 
-        public static string myDeviceConnection = "";
+        public static string myDeviceConnection = "HostName=pruthviiothub.azure-devices.net;DeviceId=test;SharedAccessKey=wa+G3FxM5/605t5dXUNIM0BMjQJLqr3hZUzhN/ZVgWs=";
 
         public static async Task AddReportedProperties(string deviceName,ReportedProperties reportedProperties)
         {
