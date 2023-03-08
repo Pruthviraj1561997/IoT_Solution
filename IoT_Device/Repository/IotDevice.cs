@@ -11,7 +11,8 @@ namespace IoT_Device.Repository
     {
         public static RegistryManager registryManager;
 
-        private static string connectionString = "HostName=pruthviiothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xceTcl8lcOWqo0k+i8Jx6CYjG5weC+dGKU6BTt3bV88=";
+        private static string connectionString = "HostName=Demohubpruthvi.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=pBWUBdJrak/gp+oJEp435gpJ7CWOErZ+DEMSTXRmsGg=";
+
 
         public static async Task AddDevice(string deviceName)
         {
